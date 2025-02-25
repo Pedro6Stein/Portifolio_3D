@@ -24,7 +24,7 @@ export const navLinks = [
 export const clientReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
+        name: 'TEste Maluco',
         position: 'Marketing Director at GreenLeaf',
         img: 'assets/review1.png',
         review:
