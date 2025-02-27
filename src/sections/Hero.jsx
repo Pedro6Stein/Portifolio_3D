@@ -8,7 +8,7 @@ const Hero = () => {
            <div className="w-full mx-auto flex flex-col scroll-m-36 mt-20 c-space gap-3">
                <p className="sm:text-3xl text-2xl font-medium
                text-white text-center font-generalsans">
-                   Hi, am Pedro Stein!
+                   Hi, am Pedro Steinn!
                    <span className="waving-hand">👋</span></p>
                <p className="hero_tag text-gray_gradient">
                 Building Products & Brands
@@ -16,7 +16,7 @@ const Hero = () => {
            </div>
            <div className="w-full h-full absolute inset-0">
                 <Canvas className="h-full w-full absolute inset-0">
-                    <PerspectiveCamera makeDefault position={[0,0,30]}/>
+                    <PerspectiveCamera MmkeDefault position={[0,0,30]}/>
                     <HackerRoom/>
                 </Canvas>
            </div>
