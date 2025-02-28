@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="gitignore">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Primeira parte da pagina Hero feita + Implementação de modelo 3d">
+      <change afterPath="$PROJECT_DIR$/src/components/Target.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="preparacao" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +56,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;preparacao&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ConstructionComponents&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/PedroBritoVCAT/WebstormProjects/Portifolio_3D&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -104,6 +106,9 @@
       <workItem from="1740498878213" duration="874000" />
       <workItem from="1740503274557" duration="669000" />
       <workItem from="1740598495397" duration="3169000" />
+      <workItem from="1740652663603" duration="1118000" />
+      <workItem from="1740738773442" duration="9752000" />
+      <workItem from="1740762237106" duration="8448000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -161,7 +166,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740601530739</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pagina Hero adicionado + arquivos ThreeJs">
+      <option name="closed" value="true" />
+      <created>1740652874770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740652874770</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pagina Hero adicionado + arquivos ThreeJs">
+      <option name="closed" value="true" />
+      <created>1740652936041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740652936041</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Primeira parte da pagina Hero feita + Implementação de modelo 3d">
+      <option name="closed" value="true" />
+      <created>1740768841519</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740768841519</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +211,8 @@
     <MESSAGE value="Arquivos Iniciais" />
     <MESSAGE value="Navbar.jsx Adicionado com responsividade" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="pagina Hero adicionado + arquivos ThreeJs" />
+    <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
   </component>
 </project>
