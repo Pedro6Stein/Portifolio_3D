@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Primeira parte da pagina Hero feita + Implementação de modelo 3d">
-      <change afterPath="$PROJECT_DIR$/src/components/Target.jsx" afterDir="false" />
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Target adicionado como elemento em Hero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Target.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Target.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,8 @@
       <workItem from="1740598495397" duration="3169000" />
       <workItem from="1740652663603" duration="1118000" />
       <workItem from="1740738773442" duration="9752000" />
-      <workItem from="1740762237106" duration="8448000" />
+      <workItem from="1740762237106" duration="8665000" />
+      <workItem from="1741030346690" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -190,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740768841519</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Target adicionado como elemento em Hero">
+      <option name="closed" value="true" />
+      <created>1740770919464</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740770919464</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +224,7 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="pagina Hero adicionado + arquivos ThreeJs" />
     <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
+    <MESSAGE value="Target adicionado como elemento em Hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Target adicionado como elemento em Hero" />
   </component>
 </project>
