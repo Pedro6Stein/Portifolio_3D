@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Dependencias - Gsap">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Elemento Target.jsx funcional">
+      <change afterPath="$PROJECT_DIR$/src/components/ReactLogo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Target.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Target.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1740738773442" duration="9752000" />
       <workItem from="1740762237106" duration="8665000" />
       <workItem from="1741030346690" duration="3282000" />
-      <workItem from="1741085450761" duration="3112000" />
+      <workItem from="1741085450761" duration="4619000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741033648867</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Elemento Target.jsx funcional">
+      <option name="closed" value="true" />
+      <created>1741089256119</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741089256119</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +241,7 @@
     <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
     <MESSAGE value="Target adicionado como elemento em Hero" />
     <MESSAGE value="Dependencias - Gsap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencias - Gsap" />
+    <MESSAGE value="Elemento Target.jsx funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elemento Target.jsx funcional" />
   </component>
 </project>
