@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="ReactLogo.jsx - Flutuante implementado.">
-      <change beforePath="$PROJECT_DIR$/src/components/ReactLogo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactLogo.jsx" afterDir="false" />
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Cube.jsx - Elemento adicionado">
+      <change afterPath="$PROJECT_DIR$/src/components/Rings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/figma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/figma.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/framer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/framer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/notion.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/notion.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cube.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cube.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Target.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Target.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +120,7 @@
       <workItem from="1740738773442" duration="9752000" />
       <workItem from="1740762237106" duration="8665000" />
       <workItem from="1741030346690" duration="3282000" />
-      <workItem from="1741085450761" duration="4935000" />
+      <workItem from="1741085450761" duration="13647000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -222,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741091118555</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cube.jsx - Elemento adicionado">
+      <option name="closed" value="true" />
+      <created>1741091701995</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741091701996</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +269,25 @@
     <MESSAGE value="Dependencias - Gsap" />
     <MESSAGE value="Elemento Target.jsx funcional" />
     <MESSAGE value="ReactLogo.jsx - Flutuante implementado." />
-    <option name="LAST_COMMIT_MESSAGE" value="ReactLogo.jsx - Flutuante implementado." />
+    <MESSAGE value="Cube.jsx - Elemento adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cube.jsx - Elemento adicionado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Target.jsx</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Rings.jsx</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
