@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Primeira parte da pagina Hero feita + Implementação de modelo 3d">
-      <change afterPath="$PROJECT_DIR$/src/components/Target.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Component Rings.jsx adicionado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +104,9 @@
       <workItem from="1740598495397" duration="3169000" />
       <workItem from="1740652663603" duration="1118000" />
       <workItem from="1740738773442" duration="9752000" />
-      <workItem from="1740762237106" duration="8448000" />
+      <workItem from="1740762237106" duration="8665000" />
+      <workItem from="1741030346690" duration="3282000" />
+      <workItem from="1741085450761" duration="14535000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -190,7 +188,55 @@
       <option name="project" value="LOCAL" />
       <updated>1740768841519</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Target adicionado como elemento em Hero">
+      <option name="closed" value="true" />
+      <created>1740770919464</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740770919464</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Dependencias - Gsap">
+      <option name="closed" value="true" />
+      <created>1741033648867</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741033648867</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Elemento Target.jsx funcional">
+      <option name="closed" value="true" />
+      <created>1741089256119</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741089256119</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ReactLogo.jsx - Flutuante implementado.">
+      <option name="closed" value="true" />
+      <created>1741091118555</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741091118555</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Cube.jsx - Elemento adicionado">
+      <option name="closed" value="true" />
+      <created>1741091701995</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741091701996</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Component Rings.jsx adicionado">
+      <option name="closed" value="true" />
+      <created>1741100251427</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741100251428</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +259,30 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="pagina Hero adicionado + arquivos ThreeJs" />
     <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
+    <MESSAGE value="Target adicionado como elemento em Hero" />
+    <MESSAGE value="Dependencias - Gsap" />
+    <MESSAGE value="Elemento Target.jsx funcional" />
+    <MESSAGE value="ReactLogo.jsx - Flutuante implementado." />
+    <MESSAGE value="Cube.jsx - Elemento adicionado" />
+    <MESSAGE value="Component Rings.jsx adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Component Rings.jsx adicionado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Target.jsx</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Rings.jsx</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

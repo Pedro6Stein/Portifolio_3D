@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.0.3",
     "@react-three/fiber": "^9.0.4",
     "@tailwindcss/vite": "^4.0.8",
+    "gsap": "^3.12.7",
     "leva": "^0.10.0",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-responsive": "^10.0.0",
