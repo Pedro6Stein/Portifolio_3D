@@ -61,6 +61,7 @@ const Hero = () => {
                          isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
+
         </section>
     );
 };
