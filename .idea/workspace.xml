@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Component Rings.jsx adicionado">
-      <change afterPath="$PROJECT_DIR$/src/components/HeroCamera.jsx" afterDir="false" />
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Component HeroCamera.jsx adicionado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HackerRoom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HackerRoom.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroCamera.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCamera.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReactLogo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactLogo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constantes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constantes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,8 @@
       <workItem from="1741030346690" duration="3282000" />
       <workItem from="1741085450761" duration="17493000" />
       <workItem from="1741110163141" duration="2328000" />
-      <workItem from="1741117402583" duration="1805000" />
+      <workItem from="1741117402583" duration="2727000" />
+      <workItem from="1741170778953" duration="14230000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -252,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741104354714</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Component HeroCamera.jsx adicionado - Vai ser usado para controlar melhor o render do computador">
+      <option name="closed" value="true" />
+      <created>1741119402527</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741119402527</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +291,8 @@
     <MESSAGE value="ReactLogo.jsx - Flutuante implementado." />
     <MESSAGE value="Cube.jsx - Elemento adicionado" />
     <MESSAGE value="Component Rings.jsx adicionado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Component Rings.jsx adicionado" />
+    <MESSAGE value="Component HeroCamera.jsx adicionado - Vai ser usado para controlar melhor o render do computador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Component HeroCamera.jsx adicionado - Vai ser usado para controlar melhor o render do computador" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

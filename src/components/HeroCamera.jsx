@@ -2,15 +2,26 @@ import React, { useRef } from 'react';
 import { useFrame } from "@react-three/fiber";
 import { easing } from "maath";
 
-const HeroCamera = ({ children }) => {
+const HeroCamera = ({ children, isMobile }) => {
     const groupRef = useRef();
 
     useFrame((state, delta) => {
-        easing.damp3(state.camera.position, [0, 0, 15], 0.25, delta);
+        // Suavemente move a câmera para [0, 0, 20]
+        easing.damp3(state.camera.position, [0, 0, 20], 0.25, delta);
+
+        if (!isMobile && groupRef.current) {
+
+            easing.damp3(
+                groupRef.current.rotation,
+                [-state.pointer.y / 3, state.pointer.x / 5, 0],
+                0.25,
+                delta
+            );
+        }
     });
 
     return (
-        <group ref={groupRef}>
+        <group ref={groupRef} scale={isMobile ? 1 : 1.3}>
             {children}
         </group>
     );
