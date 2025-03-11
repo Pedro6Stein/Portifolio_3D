@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Globo ok">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="contact me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.jsx" afterDir="false" />
     </list>
@@ -33,6 +33,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Pedro6Stein/Portifolio_3D.git&quot;,
     &quot;accountId&quot;: &quot;9080177c-46ea-46bf-9f09-31583a10daa6&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Pedro6Stein&quot;,
+    &quot;repository&quot;: &quot;Portifolio_3D&quot;
   }
 }</component>
   <component name="PackageJsonUpdateNotifier">
@@ -50,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ConstructionComponents&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PedroBritoVCAT/WebstormProjects/Portifolio_3D&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "ConstructionComponents",
+    "last_opened_file_path": "C:/Users/PedroBritoVCAT/WebstormProjects/Portifolio_3D",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -115,7 +125,8 @@
       <workItem from="1741170778953" duration="14230000" />
       <workItem from="1741185938099" duration="16536000" />
       <workItem from="1741288768222" duration="3943000" />
-      <workItem from="1741634906939" duration="3434000" />
+      <workItem from="1741634906939" duration="3761000" />
+      <workItem from="1741715602194" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -293,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741206435669</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="contact me">
+      <option name="closed" value="true" />
+      <created>1741638671673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1741638671673</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +346,8 @@
     <MESSAGE value="Button.jsx - WorkTogether - component" />
     <MESSAGE value="Start of development of the page about + 3d globo" />
     <MESSAGE value="Globo ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Globo ok" />
+    <MESSAGE value="contact me" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
