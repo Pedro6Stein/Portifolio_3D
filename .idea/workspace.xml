@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="contact me">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="About.jsx Pronto">
+      <change afterPath="$PROJECT_DIR$/src/sections/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/project-logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/spotlight1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constantes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constantes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +130,7 @@
       <workItem from="1741185938099" duration="16536000" />
       <workItem from="1741288768222" duration="3943000" />
       <workItem from="1741634906939" duration="3761000" />
-      <workItem from="1741715602194" duration="1999000" />
+      <workItem from="1741715602194" duration="8655000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -312,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741638671673</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="About.jsx Pronto">
+      <option name="closed" value="true" />
+      <created>1741718076439</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1741718076439</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +359,8 @@
     <MESSAGE value="Start of development of the page about + 3d globo" />
     <MESSAGE value="Globo ok" />
     <MESSAGE value="contact me" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact me" />
+    <MESSAGE value="About.jsx Pronto" />
+    <option name="LAST_COMMIT_MESSAGE" value="About.jsx Pronto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

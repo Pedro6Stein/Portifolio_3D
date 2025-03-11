@@ -58,19 +58,21 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'Form - An Electrical Voltage Converter',
+        desc: 'This was one of the first projects I worked on. ' +
+            'I created this tool to assist my colleagues at the company where I worked. ' +
+            'It efficiently converts voltage, power, and current, making electrical calculations easier and more accessible.',
         subdesc:
             'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
         href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
-            backgroundColor: '#2A1816',
-            border: '0.2px solid #36201D',
-            boxShadow: '0px 0px 60px 0px #AA3C304D',
+            backgroundColor: '#1A233B', // Um azul escuro
+            border: '0.2px solid #22304A', // Azul ligeiramente mais claro para o contorno
+            boxShadow: '0px 0px 60px 0px rgba(74, 144, 226, 0.5)', // Sombra azul com 50% de opacidade
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: '/assets/spotlight2.png',
         tags: [
             {
                 id: 1,
