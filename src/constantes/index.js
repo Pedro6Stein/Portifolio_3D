@@ -63,8 +63,10 @@ export const myProjects = [
             'I created this tool to assist my colleagues at the company where I worked. ' +
             'It efficiently converts voltage, power, and current, making electrical calculations easier and more accessible.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            "Built as a modern front-end application using React and Vite, this project " +
+            "is designed for optimal performance and developer experience, leveraging HMR and an efficient build system.",
+
+        href: 'https://github.com/Pedro6Stein/CircuitosComReact',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -81,18 +83,18 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Vite + React',
+                path: 'assets/vite.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JavaScript',
+                path: '/assets/js.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'CSS',
+                path: '/assets/css-3.png',
             },
         ],
     },
@@ -101,7 +103,7 @@ export const myProjects = [
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
         subdesc:
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        href: 'https://github.com/Pedro6Stein/StopBully.git',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
@@ -113,32 +115,32 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Figma',
+                path: '/assets/figma.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'JavaScript',
+                path: '/assets/js.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Html',
+                path: '/assets/html.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'CSS',
+                path: '/assets/css-3.png',
             },
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
+        title: 'Avatar - Health Management System',
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
         subdesc:
             'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: 'https://vcat.com.br/avatar/alvorada-palace',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -190,7 +192,7 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: '/assets/react.svg'
             },
             {
                 id: 2,
