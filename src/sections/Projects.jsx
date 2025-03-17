@@ -1,9 +1,10 @@
-import {myProjects} from "../constantes/index.js";
+import { useState } from "react";
+import { myProjects } from "../constantes/index.js";
 
 const Projects = () => {
-
-    const currentProject = myProjects [0]; //Temporario, deixar como set futuramente.
-    //const [selectedProjectIndex, setselectedProjectIndex] = React.useState(0);
+    const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+    const projectCount = myProjects.length;
+    const currentProject = myProjects[selectedProjectIndex];
 
     const handleNavigation = (direction) => {
         setSelectedProjectIndex((prevIndex) => {
@@ -18,17 +19,16 @@ const Projects = () => {
     return (
         <section className="c-space my-20">
             <p className="head-text">My Work</p>
-            <div className="grid lg:grid-cols-2 lg:grid-cols-1 mt-12 gap-5 w-full">
-                <div className="flex flex-col gap-5 relative
-                sm:p-10 py-5 shadow-2xl shadow-indigo-950">
+            <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
+                <div className="flex flex-col gap-5 relative sm:p-10 py-5 shadow-2xl shadow-indigo-950">
                     <div className="absolute top-0 right-0">
-                        <img src={currentProject.spotlight} alt="Spotlight" className="w-full h-96 object-cover rounded-xl"/>
+                        <img src={currentProject.spotlight} alt="Spotlight" className="w-full h-96 object-cover rounded-xl" />
                     </div>
                     <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
                         <img src={currentProject.logo} alt="Logo" />
                     </div>
                     <div className="flex flex-col gap-5 text-white-600 my-5">
-                        <p>{currentProject.title} </p>
+                        <p>{currentProject.title}</p>
                         <p>{currentProject.desc}</p>
                         <p>{currentProject.subdesc}</p>
                     </div>
@@ -42,22 +42,24 @@ const Projects = () => {
                         </div>
                         <div>
                             <a className="flex items-center gap-2 cursor-pointer text-white-600"
-                               href={currentProject.href} target="_blank"
-                               rel="noreferrer">
+                               href={currentProject.href} target="_blank" rel="noreferrer">
                                 <p>Check Live Site</p>
-                                <img src="/assets/arrow-up.png" className="w-3 h-3" alt="ArrowUp"/>
+                                <img src="/assets/arrow-up.png" className="w-3 h-3" alt="ArrowUp" />
                             </a>
                         </div>
-                        <div className="flex justify-between items-center mt-7">
-                            <button className="arrow-btn" onClick= {() => handleNavigation('previous')}>
-                                <img src="assets/right-arrow.png" className="w-4 h-4" alt="right arrow"/>
+                        <div className="flex justify-between items-center mt-7 w-full">
+                            <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
+                                <img src="/assets/left-arrow.png" className="w-4 h-4" alt="left arrow" />
+                            </button>
+                            <button className="arrow-btn" onClick={() => handleNavigation('next')}>
+                                <img src="/assets/right-arrow.png" className="w-4 h-4" alt="right arrow" />
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-    )
-}
-export default Projects
+    );
+};
+
+export default Projects;

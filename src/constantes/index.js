@@ -99,17 +99,22 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'IoT-Based Stress Monitoring System for Students',
+        desc: 'This project proposes an IoT solution to monitor stress levels in high school students at ' +
+            'IFSP - Campus Bragança Paulista. Using a cardiovascular sensor, heart rate data ' +
+            'is collected, stored in the cloud, and displayed on a mobile app with graphs and alerts.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://github.com/Pedro6Stein/StopBully.git',
+            'The system aims to support the Socio-Pedagogical team in promoting student well-being ' +'by identifying stress' +
+            ' patterns and providing actionable insights. It combines IoT, cloud computing, ' +
+            'and mobile technologies to create a comprehensive solution for stress management ' +
+            'in educational environments.',
+        href: 'https://feirabragantec.com.br/2023/projeto.php?numero=INF031',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/logo-instituto-vertical.png',
         logoStyle: {
-            backgroundColor: '#13202F',
-            border: '0.2px solid #17293E',
-            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+            backgroundColor: '#dbefdc',
+            border: '0.2px solid #4CAF50',
+            boxShadow: '0px 0px 60px 0px #4CAF50',
         },
         spotlight: '/assets/spotlight2.png',
         tags: [
