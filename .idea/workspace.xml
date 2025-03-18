@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="About.jsx Pronto">
-      <change afterPath="$PROJECT_DIR$/public/assets/IF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/logo-instituto-vertical.png" afterDir="false" />
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Botao de navegacao + projetoIFSP">
+      <change afterPath="$PROJECT_DIR$/public/assets/3js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/LogoV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logoVCat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constantes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constantes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,8 @@
       <workItem from="1741715602194" duration="8655000" />
       <workItem from="1741802652393" duration="8451000" />
       <workItem from="1741980009617" duration="78000" />
-      <workItem from="1742238103714" duration="3780000" />
+      <workItem from="1742238103714" duration="4138000" />
+      <workItem from="1742294535571" duration="3459000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -342,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741980070784</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Botao de navegacao + projetoIFSP">
+      <option name="closed" value="true" />
+      <created>1742243416811</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1742243416827</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +397,8 @@
     <MESSAGE value="Globo ok" />
     <MESSAGE value="contact me" />
     <MESSAGE value="About.jsx Pronto" />
-    <option name="LAST_COMMIT_MESSAGE" value="About.jsx Pronto" />
+    <MESSAGE value="Botao de navegacao + projetoIFSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Botao de navegacao + projetoIFSP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
