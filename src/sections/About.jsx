@@ -66,8 +66,9 @@ const About = () => {
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
                                 showGraticules
-                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
-                                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                                globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-day.jpg"
+                                bumpImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png"
+
                                 labelsData={[
                                     {
                                         lat: -22.9523,
@@ -91,6 +92,7 @@ const About = () => {
                             <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                         </div>
                     </div>
+
                 </div>
 
                 <div className="xl:col-span-2 xl:row-span-3">
