@@ -1,7 +1,6 @@
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 import {useState} from "react";
-import {useRef} from "react";
 
 const About = () => {
     // 1. Declaramos o hook useState no nível superior do componente
@@ -15,8 +14,6 @@ const About = () => {
             setHasCopied(false);
         }, 2000);
     };
-
-    const globeRef = useRef();
 
     return (
         <section className="c-space my-20" id="about">
@@ -65,7 +62,6 @@ const About = () => {
                     <div className="grid-container">
                         <div className="rounded-3xl w-full sm:h-[276px] h-fit flex justify-center items-center">
                             <Globe
-                                ref={globeRef}
                                 height={276}
                                 width={276}
                                 backgroundColor="rgba(0, 0, 0, 0)"
@@ -74,6 +70,7 @@ const About = () => {
                                 showGraticules
                                 globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-day.jpg"
                                 bumpImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png"
+
                                 labelsData={[
                                     {
                                         lat: -22.9523,
@@ -84,7 +81,6 @@ const About = () => {
                                     }
                                 ]}
                             />
-
                         </div>
 
                         <div>
@@ -96,18 +92,7 @@ const About = () => {
                                 scalable
                                 web solutions using modern technologies.
                             </p>
-                            <Button
-                                name="Contact Me"
-                                isBeam
-                                containerClass="w-full mt-10"
-                                onClick={() => {
-                                    globeRef.current?.pointOfView(
-                                        {lat: -22.9523, lng: -46.5425, altitude: 1.5},
-                                        1000 // duração em milissegundos
-                                    );
-                                }}
-                            />
-
+                            <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
                         </div>
                     </div>
 

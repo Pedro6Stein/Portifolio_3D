@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="DemoComputer.jsx finalmente pronto">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
+      <change afterPath="$PROJECT_DIR$/src/sections/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
       <workItem from="1742410496423" duration="5374000" />
       <workItem from="1742580230991" duration="5274000" />
       <workItem from="1742812685607" duration="60000" />
-      <workItem from="1743017175969" duration="2464000" />
+      <workItem from="1743017175969" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -380,7 +381,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742812719810</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
+      <option name="closed" value="true" />
+      <created>1743019741293</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1743019741293</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
+      <option name="closed" value="true" />
+      <created>1743019762858</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1743019762858</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +446,8 @@
     <MESSAGE value="Botao de navegacao + projetoIFSP" />
     <MESSAGE value="MyWork experiences" />
     <MESSAGE value="DemoComputer.jsx finalmente pronto" />
-    <option name="LAST_COMMIT_MESSAGE" value="DemoComputer.jsx finalmente pronto" />
+    <MESSAGE value="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -451,7 +469,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/sections/About.jsx</url>
-          <line>63</line>
+          <line>60</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
