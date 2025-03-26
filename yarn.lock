@@ -1029,7 +1029,7 @@
   resolved "https://registry.yarnpkg.com/@types/stats.js/-/stats.js-0.17.3.tgz#705446e12ce0fad618557dd88236f51148b7a935"
   integrity sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==
 
-"@types/three@*":
+"@types/three@*", "@types/three@^0.174.0":
   version "0.174.0"
   resolved "https://registry.yarnpkg.com/@types/three/-/three-0.174.0.tgz#994787330a9f6502d37c8783578d2180d89bc406"
   integrity sha512-De/+vZnfg2aVWNiuy1Ldu+n2ydgw1osinmiZTAn0necE++eOfsygL8JpZgFjR2uHmAPo89MkxBj3JJ+2BMe+Uw==
@@ -3264,10 +3264,10 @@ react-dropzone@^12.0.0:
     file-selector "^0.5.0"
     prop-types "^15.8.1"
 
-react-globe.gl@^2.33.1:
-  version "2.33.1"
-  resolved "https://registry.yarnpkg.com/react-globe.gl/-/react-globe.gl-2.33.1.tgz#47de2ac82c18c315d4b48163d6478e6a7a79b4cb"
-  integrity sha512-0TZkwPBUanTOhhVBJuk6es3TfciRpqVgzUSNaGhcsKYzMN6KaA5m9S8ZcibcJ17fZTXPrztcdGJURBo8VFwLxQ==
+react-globe.gl@^2.33.2:
+  version "2.33.2"
+  resolved "https://registry.yarnpkg.com/react-globe.gl/-/react-globe.gl-2.33.2.tgz#5e0279abc77e0481244f9f6c8b1976be0367bc1a"
+  integrity sha512-+keFNBxw4B45nyPm9fq2IeZNKgK6qfEivKXtaG6mSe6PRZF1QL5UeFxUZs07fSraY4GDPt2hL7xhlk2GunyZiA==
   dependencies:
     globe.gl "^2.41"
     prop-types "15"

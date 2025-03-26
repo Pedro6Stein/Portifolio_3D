@@ -1,6 +1,6 @@
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
-import { useState } from "react";
+import {useState} from "react";
 
 const About = () => {
     // 1. Declaramos o hook useState no nível superior do componente
@@ -32,7 +32,8 @@ const About = () => {
                                 I began my development career on February 3rd and have rapidly expanded my technical
                                 skill set since then. My experience includes designing robust JavaScript solutions,
                                 building modular React components, and developing interactive 3D visualizations with
-                                ThreeJS. This journey has sharpened my expertise in modern front-end frameworks and real-time
+                                ThreeJS. This journey has sharpened my expertise in modern front-end frameworks and
+                                real-time
                                 graphics, equipping me to tackle complex technical challenges.
                             </p>
                         </div>
@@ -49,7 +50,8 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
-                                My tech stack includes JavaScript, React, ThreeJS, Python, and Java, among other modern web
+                                My tech stack includes JavaScript, React, ThreeJS, Python, and Java, among other modern
+                                web
                                 technologies, enabling the creation of dynamic and visually compelling applications.
                             </p>
                         </div>
@@ -66,8 +68,9 @@ const About = () => {
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
                                 showGraticules
-                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
-                                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                                globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-day.jpg"
+                                bumpImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png"
+
                                 labelsData={[
                                     {
                                         lat: -22.9523,
@@ -85,12 +88,14 @@ const About = () => {
                                 I work as a developer in Itatiba at Vcat
                             </p>
                             <p className="grid-subtext">
-                                Based in the vibrant city of Itatiba, I contribute to innovative projects by developing scalable
+                                Based in the vibrant city of Itatiba, I contribute to innovative projects by developing
+                                scalable
                                 web solutions using modern technologies.
                             </p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                            <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
                         </div>
                     </div>
+
                 </div>
 
                 <div className="xl:col-span-2 xl:row-span-3">
@@ -104,9 +109,12 @@ const About = () => {
                             <p className="grid-headtext">My Passion for Technology</p>
                             <p className="grid-subtext">
                                 Since I was 14, I have been exploring the vast realm of technology.
-                                Fascinated by both science and mathematics from an early age, I discovered that programming
-                                was the perfect way to blend these two passions. Through technology, I create innovative solutions
-                                that transform our world. I thrive on solving challenges, embracing new experiences, and celebrating
+                                Fascinated by both science and mathematics from an early age, I discovered that
+                                programming
+                                was the perfect way to blend these two passions. Through technology, I create innovative
+                                solutions
+                                that transform our world. I thrive on solving challenges, embracing new experiences, and
+                                celebrating
                                 all that is fresh and exciting.
                             </p>
                         </div>
@@ -123,7 +131,8 @@ const About = () => {
                         <div className="space-y-2">
                             <p className="grid-subtext text-center">Contact Me!</p>
                             <div className="copy-container" onClick={handleCopy}>
-                                <img src={hasCopied ? 'assents/tick.svg' : 'assents/copy.svg'} alt="copy" />
+                                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy"/>
+                                <p className="lg: text-2xl md: text-xl font-medium text-gray_gradient text-white">zodtewill@gmail.com</p>
                             </div>
                         </div>
                     </div>

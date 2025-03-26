@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Globo ok">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
+      <change afterPath="$PROJECT_DIR$/src/sections/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,9 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -33,6 +38,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Pedro6Stein/Portifolio_3D.git&quot;,
     &quot;accountId&quot;: &quot;9080177c-46ea-46bf-9f09-31583a10daa6&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Pedro6Stein&quot;,
+    &quot;repository&quot;: &quot;Portifolio_3D&quot;
   }
 }</component>
   <component name="PackageJsonUpdateNotifier">
@@ -56,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;ConstructionComponents&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PedroBritoVCAT/WebstormProjects/Portifolio_3D&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PedroBritoVCAT/WebstormProjects/Portifolio_3D/public/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,11 +79,19 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PedroBritoVCAT\WebstormProjects\Portifolio_3D\public\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PedroBritoVCAT\WebstormProjects\Portifolio_3D\public\assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -115,7 +138,16 @@
       <workItem from="1741170778953" duration="14230000" />
       <workItem from="1741185938099" duration="16536000" />
       <workItem from="1741288768222" duration="3943000" />
-      <workItem from="1741634906939" duration="3434000" />
+      <workItem from="1741634906939" duration="3761000" />
+      <workItem from="1741715602194" duration="8655000" />
+      <workItem from="1741802652393" duration="8451000" />
+      <workItem from="1741980009617" duration="78000" />
+      <workItem from="1742238103714" duration="4138000" />
+      <workItem from="1742294535571" duration="3714000" />
+      <workItem from="1742410496423" duration="5374000" />
+      <workItem from="1742580230991" duration="5274000" />
+      <workItem from="1742812685607" duration="60000" />
+      <workItem from="1743017175969" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -293,15 +325,97 @@
       <option name="project" value="LOCAL" />
       <updated>1741206435669</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="contact me">
+      <option name="closed" value="true" />
+      <created>1741638671673</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1741638671673</updated>
+    </task>
+    <task id="LOCAL-00024" summary="About.jsx Pronto">
+      <option name="closed" value="true" />
+      <created>1741718076439</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1741718076439</updated>
+    </task>
+    <task id="LOCAL-00025" summary="About.jsx Pronto">
+      <option name="closed" value="true" />
+      <created>1741980070784</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1741980070784</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Botao de navegacao + projetoIFSP">
+      <option name="closed" value="true" />
+      <created>1742243416811</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1742243416827</updated>
+    </task>
+    <task id="LOCAL-00027" summary="MyWork experiences">
+      <option name="closed" value="true" />
+      <created>1742298862209</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1742298862209</updated>
+    </task>
+    <task id="LOCAL-00028" summary="DemoComputer.jsx finalmente pronto">
+      <option name="closed" value="true" />
+      <created>1742585552068</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742585552068</updated>
+    </task>
+    <task id="LOCAL-00029" summary="DemoComputer.jsx finalmente pronto">
+      <option name="closed" value="true" />
+      <created>1742812719810</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1742812719810</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
+      <option name="closed" value="true" />
+      <created>1743019741293</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1743019741293</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
+      <option name="closed" value="true" />
+      <created>1743019762858</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1743019762858</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="7132a225-ce8e-4b89-97c5-68ffb8a02767" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="7132a225-ce8e-4b89-97c5-68ffb8a02767">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -327,7 +441,13 @@
     <MESSAGE value="Button.jsx - WorkTogether - component" />
     <MESSAGE value="Start of development of the page about + 3d globo" />
     <MESSAGE value="Globo ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Globo ok" />
+    <MESSAGE value="contact me" />
+    <MESSAGE value="About.jsx Pronto" />
+    <MESSAGE value="Botao de navegacao + projetoIFSP" />
+    <MESSAGE value="MyWork experiences" />
+    <MESSAGE value="DemoComputer.jsx finalmente pronto" />
+    <MESSAGE value="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,6 +461,21 @@
           <url>file://$PROJECT_DIR$/src/sections/Hero.jsx</url>
           <line>24</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Projects.jsx</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/About.jsx</url>
+          <line>60</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/HackerRoom.jsx</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
