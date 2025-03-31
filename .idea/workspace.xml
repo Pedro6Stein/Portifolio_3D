@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado">
-      <change afterPath="$PROJECT_DIR$/src/sections/Contact.jsx" afterDir="false" />
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Fix: Contact.jsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contact.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,10 @@
       <workItem from="1742410496423" duration="5374000" />
       <workItem from="1742580230991" duration="5274000" />
       <workItem from="1742812685607" duration="60000" />
-      <workItem from="1743017175969" duration="3406000" />
+      <workItem from="1743017175969" duration="3759000" />
+      <workItem from="1743103476488" duration="1993000" />
+      <workItem from="1743189165020" duration="861000" />
+      <workItem from="1743449916051" duration="2935000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -397,7 +398,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743019762858</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="New Section --&gt; Contact.jsx">
+      <option name="closed" value="true" />
+      <created>1743020810057</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1743020810057</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fix: Contact.jsx">
+      <option name="closed" value="true" />
+      <created>1743189979395</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1743189979395</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +464,9 @@
     <MESSAGE value="MyWork experiences" />
     <MESSAGE value="DemoComputer.jsx finalmente pronto" />
     <MESSAGE value="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nova pagina DemoComputer.jsx - Pronta + Botao Bugado &quot;Lets work&quot; arrumado" />
+    <MESSAGE value="New Section --&gt; Contact.jsx" />
+    <MESSAGE value="Fix: Contact.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Contact.jsx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
