@@ -1,5 +1,5 @@
 import {useRef, useState} from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
     const formRef = useRef();
@@ -18,33 +18,21 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
-
-        emailjs.send(
-            "service_nvvh7is", // ✅ Substitua pelo seu ID de serviço
-            "template_xxxxxx", // ✅ Substitua pelo seu ID de template
-            {
+        try {
+            emailjs.send("service_nvvh7is", "__ejs-test-mail-service__", {
                 from_name: form.name,
-                to_name: "Pedro Stein",
+                to_name: form.email,
                 from_email: form.email,
-                to_email: "seu@email.com", // ✅ Seu email
-                message: form.message,
-            },
-            "YOUR_PUBLIC_KEY" // ✅ Substitua pela sua public key
-        )
-            .then(() => {
-                setLoading(false);
-                alert("Mensagem enviada com sucesso!");
-                setForm({
-                    name: "",
-                    email: "",
-                    message: "",
-                });
-            })
-            .catch((error) => {
-                setLoading(false);
-                console.error(error);
-                alert("Erro ao enviar. Tente novamente.");
-            });
+                to_email: "zodtewill@gmail.com",
+                message: form.message
+            }, "e9M2gSwi1eSoYLtyA");
+
+            setLoading(false);
+            alert("Your email has been sent.!!");
+        } catch (error) {
+            console.log(error);
+            alert("Nao pegouu | Something went wrong ");
+        }
     };
 
     return (
@@ -56,14 +44,12 @@ const Contact = () => {
                     className="w-full h-full object-cover absolute inset-0"
                 />
                 <div className="contact-container relative z-10">
-                    <h3 className="head-text">
-                        Let&apos;s talk
-                    </h3>
+                    <h3 className="head-text">Let&apos;s talk</h3>
                     <p className="text-lg text-white-600 mt-3">
-                        I am a beginner in the programming field,
-                        passionate about continuous learning and eager to tackle challenges.
-                        I&apos;m open to development internships, confident that my growing skills and hands-on
-                        experience will significantly strengthen my expertise.
+                        I am a beginner in the programming field, passionate about continuous
+                        learning and eager to tackle challenges. I&apos;m open to development
+                        internships, confident that my growing skills and hands-on experience will
+                        significantly strengthen my expertise.
                     </p>
                     <form
                         ref={formRef}
@@ -106,11 +92,7 @@ const Contact = () => {
                                 placeholder="Hi Pedro Stein, I'd love to talk to you about..."
                             />
                         </label>
-                        <button
-                            className="field-btn"
-                            type="submit"
-                            disabled={loading}
-                        >
+                        <button className="field-btn" type="submit" disabled={loading}>
                             {loading ? "Sending..." : "Send Message"}
                             <img
                                 src="/assets/arrow-up.png"

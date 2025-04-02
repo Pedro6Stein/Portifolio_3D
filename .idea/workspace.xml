@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Inicio de uma Construção Do formulario em Contact.jsx">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Api Email --&gt; Falta ajustar alguns dados da api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +155,8 @@
       <workItem from="1743449916051" duration="3127000" />
       <workItem from="1743532044953" duration="95000" />
       <workItem from="1743534568635" duration="4112000" />
-      <workItem from="1743538732115" duration="531000" />
+      <workItem from="1743538732115" duration="611000" />
+      <workItem from="1743622729706" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -427,7 +430,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743453002852</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Api Email toda bugada">
+      <option name="closed" value="true" />
+      <created>1743539338895</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1743539338895</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,8 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arquivos Iniciais" />
-    <MESSAGE value="Navbar.jsx Adicionado com responsividade" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="pagina Hero adicionado + arquivos ThreeJs" />
     <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
@@ -480,7 +489,9 @@
     <MESSAGE value="New Section --&gt; Contact.jsx" />
     <MESSAGE value="Fix: Contact.jsx" />
     <MESSAGE value="Inicio de uma Construção Do formulario em Contact.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio de uma Construção Do formulario em Contact.jsx" />
+    <MESSAGE value="Api Email toda bugada" />
+    <MESSAGE value="Api Email --&gt; Falta ajustar alguns dados da api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api Email --&gt; Falta ajustar alguns dados da api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
