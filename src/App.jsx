@@ -3,6 +3,7 @@ import Hero from "./sections/Hero.jsx";
 import About from "./sections/About.jsx";
 import Contact from "./sections/Contact.jsx";
 import Projects from "./sections/Projects.jsx";
+import Footer from "./sections/Footer.jsx";
 
 
 export const App = () => {
@@ -13,6 +14,7 @@ export const App = () => {
             <About/>
             <Projects/>
             <Contact/>
+            <Footer/>
         </main>
 
     )

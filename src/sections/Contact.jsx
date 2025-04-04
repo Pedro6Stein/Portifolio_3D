@@ -19,12 +19,12 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true);
         try {
-            emailjs.send("service_nvvh7is", "__ejs-test-mail-service__", {
-                from_name: form.name,
-                to_name: form.email,
-                from_email: form.email,
+            emailjs.send("service_nvvh7is", "template_2xilp9j", {
+                name: form.name,
+                message: form.email,
+                email: form.email,
                 to_email: "zodtewill@gmail.com",
-                message: form.message
+
             }, "e9M2gSwi1eSoYLtyA");
 
             setLoading(false);
@@ -36,7 +36,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="contact">
             <div className="relative min-h-screen flex items-center justify-center flex-col">
                 <img
                     src="/assets/terminal.png"

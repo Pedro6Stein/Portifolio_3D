@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Api Email --&gt; Falta ajustar alguns dados da api">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +155,8 @@
       <workItem from="1743532044953" duration="95000" />
       <workItem from="1743534568635" duration="4112000" />
       <workItem from="1743538732115" duration="611000" />
-      <workItem from="1743622729706" duration="3045000" />
+      <workItem from="1743622729706" duration="3122000" />
+      <workItem from="1743708687564" duration="2985000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -438,7 +438,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743539338895</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Api Email --&gt; Falta ajustar alguns dados da api">
+      <option name="closed" value="true" />
+      <created>1743625871629</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1743625871629</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Email JS Finalmente funcionandoooO!!!">
+      <option name="closed" value="true" />
+      <created>1743709955207</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1743709955207</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar">
+      <option name="closed" value="true" />
+      <created>1743710675606</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1743710675606</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,8 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitignore" />
-    <MESSAGE value="pagina Hero adicionado + arquivos ThreeJs" />
     <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
     <MESSAGE value="Target adicionado como elemento em Hero" />
     <MESSAGE value="Dependencias - Gsap" />
@@ -491,7 +513,9 @@
     <MESSAGE value="Inicio de uma Construção Do formulario em Contact.jsx" />
     <MESSAGE value="Api Email toda bugada" />
     <MESSAGE value="Api Email --&gt; Falta ajustar alguns dados da api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Api Email --&gt; Falta ajustar alguns dados da api" />
+    <MESSAGE value="Email JS Finalmente funcionandoooO!!!" />
+    <MESSAGE value="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,6 +544,12 @@
           <url>file://$PROJECT_DIR$/src/components/HackerRoom.jsx</url>
           <line>10</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Contact.jsx</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
