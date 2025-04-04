@@ -14,6 +14,19 @@ const Footer = () => {
                     <img src="/assets/github.svg" alt="GitHub" className="w-1/2 h-1/2"/>
                 </div>
             </div>
+            <div className="Flex gap-3">
+                <div className="social-icon">
+                    <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2"/>
+                </div>
+            </div>
+            <div className="Flex gap-3">
+                <div className="social-icon">
+                    <img src="/assets/instagram.svg" alt="GitHub" className="w-1/2 h-1/2"/>
+                </div>
+            </div>
+            <p className="text-white-500">
+                &copy; 2025 Pedro Stein. Todos os direitos reservados.
+            </p>
         </section>
     )
 }
