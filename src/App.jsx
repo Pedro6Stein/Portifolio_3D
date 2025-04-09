@@ -4,6 +4,7 @@ import About from "./sections/About.jsx";
 import Contact from "./sections/Contact.jsx";
 import Projects from "./sections/Projects.jsx";
 import Footer from "./sections/Footer.jsx";
+import Experience from "./sections/Experience.jsx";
 
 
 export const App = () => {
@@ -13,6 +14,7 @@ export const App = () => {
             <Hero/>
             <About/>
             <Projects/>
+            <Experience/>
             <Contact/>
             <Footer/>
         </main>
