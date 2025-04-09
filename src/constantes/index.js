@@ -104,7 +104,7 @@ export const myProjects = [
             'IFSP - Campus Bragança Paulista. Using a cardiovascular sensor, heart rate data ' +
             'is collected, stored in the cloud, and displayed on a mobile app with graphs and alerts.',
         subdesc:
-            'The system aims to support the Socio-Pedagogical team in promoting student well-being ' +'by identifying stress' +
+            'The system aims to support the Socio-Pedagogical team in promoting student well-being ' + 'by identifying stress' +
             ' patterns and providing actionable insights. It combines IoT, cloud computing, ' +
             'and mobile technologies to create a comprehensive solution for stress management ' +
             'in educational environments.',
@@ -199,6 +199,5 @@ export const workExperiences = [
         title: "As a Junior Web Developer, I assist full-stack developers in their tasks, focusing on maintaining and enhancing the Avatar website. My role involves implementing new interactive elements, optimizing 3D model rendering, and ensuring a smooth user experience.",
         icon: '/assets/LogoV.png',
         animation: 'build',
-    }
-
+    },
 ];

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar">
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida">
+      <change afterPath="$PROJECT_DIR$/src/sections/Experience.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constantes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constantes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
     &quot;Notification.DoNotAsk-ideavim&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#10 on ConstructionComponents&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ConstructionComponents&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/PedroBritoVCAT/WebstormProjects/Portifolio_3D/public/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -90,6 +91,7 @@
       <recent name="C:\Users\PedroBritoVCAT\WebstormProjects\Portifolio_3D\public\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PedroBritoVCAT\WebstormProjects\Portifolio_3D\src\sections" />
       <recent name="C:\Users\PedroBritoVCAT\WebstormProjects\Portifolio_3D\public\assets" />
     </key>
   </component>
@@ -156,7 +158,11 @@
       <workItem from="1743534568635" duration="4112000" />
       <workItem from="1743538732115" duration="611000" />
       <workItem from="1743622729706" duration="3122000" />
-      <workItem from="1743708687564" duration="2985000" />
+      <workItem from="1743708687564" duration="3374000" />
+      <workItem from="1743790548937" duration="4053000" />
+      <workItem from="1744054399230" duration="203000" />
+      <workItem from="1744056273767" duration="1391000" />
+      <workItem from="1744229670441" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -462,7 +468,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743710675606</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Footer.jsx --&gt; basic feito">
+      <option name="closed" value="true" />
+      <created>1743712040116</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1743712040116</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Footer.jsx Pronto">
+      <option name="closed" value="true" />
+      <created>1743791908314</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1743791908314</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida">
+      <option name="closed" value="true" />
+      <created>1743794740979</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1743794740979</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,9 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Primeira parte da pagina Hero feita + Implementação de modelo 3d" />
-    <MESSAGE value="Target adicionado como elemento em Hero" />
-    <MESSAGE value="Dependencias - Gsap" />
     <MESSAGE value="Elemento Target.jsx funcional" />
     <MESSAGE value="ReactLogo.jsx - Flutuante implementado." />
     <MESSAGE value="Cube.jsx - Elemento adicionado" />
@@ -515,7 +542,10 @@
     <MESSAGE value="Api Email --&gt; Falta ajustar alguns dados da api" />
     <MESSAGE value="Email JS Finalmente funcionandoooO!!!" />
     <MESSAGE value="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio da nova Section Footer.jsx + Ajustando as id para navegacao via NavBar" />
+    <MESSAGE value="Footer.jsx --&gt; basic feito" />
+    <MESSAGE value="Footer.jsx Pronto" />
+    <MESSAGE value="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,7 +578,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/sections/Contact.jsx</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
