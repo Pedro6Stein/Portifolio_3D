@@ -193,11 +193,33 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'VCAT | Avatar',
+        name: 'Instituto Federal',
+        pos: 'Physics Tutor & Project Developer',
+        duration: 'High School',
+        title: "During high school, I had the privilege of being a Physics tutor, helping fellow students understand key concepts. " +
+            "I also developed several projects, including a website, a mobile app, and a sensor-based device using ESP32, which was showcased at the Bragantec science fair.",
+        icon: '/assets/IFlogo.png',
+        animation: 'build',
+    },
+    {
+        id: 2,
+        name: 'SunLab Power',
+        pos: 'Administrative & Technical Assistant',
+        duration: '2024 - 2025',
+        title: "As an administrative and technical assistant, I helped the company develop detailed documentation and conducted employee performance research based on data analysis principles. " +
+            "I created reports to support decision-making and also worked on the electronics side, assisting with hardware assembly.",
+        icon: '/assets/SunLab.jpg',
+        animation: 'build',
+
+    },
+    {
+        id: 3,
+        name: 'VCAT',
         pos: 'Junior Developer',
         duration: '2025 - Present',
         title: "As a Junior Web Developer, I assist full-stack developers in their tasks, focusing on maintaining and enhancing the Avatar website. My role involves implementing new interactive elements, optimizing 3D model rendering, and ensuring a smooth user experience.",
         icon: '/assets/LogoV.png',
-        animation: 'build',
+        animation: 'build'
+
     },
 ];

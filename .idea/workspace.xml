@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida">
-      <change afterPath="$PROJECT_DIR$/src/sections/Experience.jsx" afterDir="false" />
+    <list default="true" id="c1c41039-f27f-4ad9-9a87-30cf6440899b" name="Changes" comment="Estrutura de work-content feita em Experience.jsx">
+      <change afterPath="$PROJECT_DIR$/public/assets/IFlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/SunLab.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constantes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constantes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Experience.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,8 @@
       <workItem from="1743790548937" duration="4053000" />
       <workItem from="1744054399230" duration="203000" />
       <workItem from="1744056273767" duration="1391000" />
-      <workItem from="1744229670441" duration="663000" />
+      <workItem from="1744229670441" duration="879000" />
+      <workItem from="1744314051816" duration="2192000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar.jsx Adicionado com responsividade">
       <option name="closed" value="true" />
@@ -492,7 +494,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743794740979</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Estrutura de work-content feita em Experience.jsx">
+      <option name="closed" value="true" />
+      <created>1744230401057</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1744230401057</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Estrutura de work-content feita em Experience.jsx">
+      <option name="closed" value="true" />
+      <created>1744230427643</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1744230427643</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Elemento Target.jsx funcional" />
     <MESSAGE value="ReactLogo.jsx - Flutuante implementado." />
     <MESSAGE value="Cube.jsx - Elemento adicionado" />
     <MESSAGE value="Component Rings.jsx adicionado" />
@@ -545,7 +562,8 @@
     <MESSAGE value="Footer.jsx --&gt; basic feito" />
     <MESSAGE value="Footer.jsx Pronto" />
     <MESSAGE value="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pagina de Experience.jsx em construção: Funcionalidade e estrtura definida" />
+    <MESSAGE value="Estrutura de work-content feita em Experience.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estrutura de work-content feita em Experience.jsx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,6 +597,12 @@
           <url>file://$PROJECT_DIR$/src/sections/Contact.jsx</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/constantes/index.js</url>
+          <line>100</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
