@@ -92,7 +92,7 @@ const About = () => {
                                 scalable
                                 web solutions using modern technologies.
                             </p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+                            <Button name="Contact Me" isBeam containerClass="w-full mt-10" id="contact"/>
                         </div>
                     </div>
 
