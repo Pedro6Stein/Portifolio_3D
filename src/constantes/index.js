@@ -109,7 +109,7 @@ export const myProjects = [
             'and mobile technologies to create a comprehensive solution for stress management ' +
             'in educational environments.',
         href: 'https://feirabragantec.com.br/2023/projeto.php?numero=INF031',
-        texture: '/textures/project/project2.mp4',
+        texture: '/textures/project/project3.mp4',
         logo: '/assets/logo-instituto-vertical.png',
         logoStyle: {
             backgroundColor: '#dbefdc',
