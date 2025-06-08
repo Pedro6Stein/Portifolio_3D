@@ -4,6 +4,16 @@ Bem-vindo ao meu portfólio 3D, onde a criatividade encontra a tecnologia! Desen
 
 ---
 
+## 🖼️ Exemplos Visuais
+
+Aqui estão algumas imagens exemplificando o projeto:
+
+![Exemplo 1](/assets/exemplo1.png)
+![Exemplo 2](/assets/exemplo2.png)
+![Exemplo 3](/assets/exemplo3.png)
+
+
+
 ## 🚀 Funcionalidades
 
 * **Cenas 3D Interativas**: Criadas com React-Three-Fiber e @react-three/drei para uma experiência declarativa em Three.js.
