@@ -11,6 +11,7 @@ Aqui estão algumas imagens exemplificando o projeto:
 ![Exemplo 1](public/assets/exemplo1.png)
 ![Exemplo 2](public/assets/exemplo2.png)
 ![Exemplo 3](public/assets/exemplo3.png)
+![Exemplo 4](public/assets/exemplo4.png)
 
 
 
