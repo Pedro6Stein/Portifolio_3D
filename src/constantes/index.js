@@ -217,7 +217,7 @@ export const workExperiences = [
         name: 'VCAT',
         pos: 'Junior Developer',
         duration: '2025 - Present',
-        title: "As a Junior Web Developer, I assist full-stack developers in their tasks, focusing on maintaining and enhancing the Avatar website. My role involves implementing new interactive elements, optimizing 3D model rendering, and ensuring a smooth user experience.",
+        title: "Development of a mobile application in React Native and TypeScript for product management and interactive catalog.\nImplementation of unit tests for meshes in Three.js, ensuring integrity and quality of 3D models.\nCreation of REST endpoints in Java (Spring Boot), defining controllers and services for internal systems integration.\nCode version control with Git, promoting good commit and branching practices.\nAdjustments and modeling of 3D assets in Blender, optimizing performance and visual consistency in applications.",
         icon: '/assets/LogoV.png',
         animation: 'build'
 
