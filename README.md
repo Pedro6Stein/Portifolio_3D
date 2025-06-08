@@ -8,9 +8,9 @@ Bem-vindo ao meu portfólio 3D, onde a criatividade encontra a tecnologia! Desen
 
 Aqui estão algumas imagens exemplificando o projeto:
 
-![Exemplo 1](/assets/exemplo1.png)
-![Exemplo 2](/assets/exemplo2.png)
-![Exemplo 3](/assets/exemplo3.png)
+![Exemplo 1](public/assets/exemplo1.png)
+![Exemplo 2](public/assets/exemplo2.png)
+![Exemplo 3](public/assets/exemplo3.png)
 
 
 
