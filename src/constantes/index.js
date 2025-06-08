@@ -21,41 +21,6 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
-    {
-        id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-        id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-        id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-        id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-];
-
 export const myProjects = [
     {
         title: 'Form - An Electrical Voltage Converter',
@@ -145,7 +110,7 @@ export const myProjects = [
         desc: 'A dynamic web platform that showcases 3D models of pontoon boats, allowing users to explore and customize them in an interactive environment. The project leverages Three.js to deliver a seamless and visually engaging experience, making boat customization intuitive and immersive.',
         subdesc: 'I was responsible for the maintenance and implementation of key features, such as camera switching buttons, improvements to 3D models, and overall upkeep of the Avatar website, ensuring a high-performance and user-friendly experience.',
         href: 'https://vcat.com.br/avatar/alvorada-palace',
-        texture: '/textures/project/project3.mp4',
+        texture: '/textures/project/project4.mp4',
         logo: '/assets/LogoV.png',
 
         logoStyle: {
@@ -153,7 +118,7 @@ export const myProjects = [
             border: '0.2px solid rgba(208, 213, 221, 0.5)', // Borda sutil
             boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)' // Se quiser remover o tom esverdeado, ajuste isso
         },
-        spotlight: '/assets/spotlight5.png',
+        spotlight: '/assets/spotlight3.png',
         tags: [
             {
                 id: 1,
@@ -177,6 +142,45 @@ export const myProjects = [
             },
         ],
     },
+    {
+        title: 'Mobile Product Manager - VCAT',
+        desc: 'A mobile application developed with React Native and TypeScript using Expo Go, focused on product management and an interactive catalog. The app integrates with the SAP API and follows a clean architecture, allowing scalable feature additions without modifying the core codebase.',
+        subdesc: 'I was responsible for the architecture and development of this mobile app using only React Native and Tailwind. The clean and modular structure ensures maintainability and future scalability, while SAP integration brings real-time product data into the app.',
+        href: 'https://vcat.com.br/app',
+        texture: '/textures/project/project6.mp4',
+        logo: '/assets/LogoV.png',
+
+        logoStyle: {
+            backgroundColor: 'rgba(192, 192, 192, 0.3)',
+            border: '0.2px solid rgba(208, 213, 221, 0.5)',
+            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)'
+        },
+        spotlight: '/assets/spotlight3.png',
+        tags: [
+                {
+                id: 1,
+                name: 'Figma',
+                path: '/assets/figma.svg',
+            },
+            {
+                id: 2,
+                name: 'JavaScript',
+                path: '/assets/js.png',
+            },
+            {
+                id: 3,
+                name: 'Tailwind CSS',
+                path: '/assets/tailwindcss.png',
+            },
+             {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+        ],
+    }
+
+
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
