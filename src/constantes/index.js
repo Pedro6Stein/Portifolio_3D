@@ -203,7 +203,7 @@ export const workExperiences = [
         title: "During high school, I had the privilege of being a Physics tutor, helping fellow students understand key concepts. " +
             "I also developed several projects, including a website, a mobile app, and a sensor-based device using ESP32, which was showcased at the Bragantec science fair.",
         icon: '/assets/IFlogo.png',
-        animation: 'build',
+        animation: 'idle',
     },
     {
         id: 2,
@@ -213,7 +213,7 @@ export const workExperiences = [
         title: "As an administrative and technical assistant, I helped the company develop detailed documentation and conducted employee performance research based on data analysis principles. " +
             "I created reports to support decision-making and also worked on the electronics side, assisting with hardware assembly.",
         icon: '/assets/SunLab.jpg',
-        animation: 'build',
+        animation: 'victory',
 
     },
     {
@@ -223,7 +223,7 @@ export const workExperiences = [
         duration: '2025 - Present',
         title: "Development of a mobile application in React Native and TypeScript for product management and interactive catalog.\nImplementation of unit tests for meshes in Three.js, ensuring integrity and quality of 3D models.\nCreation of REST endpoints in Java (Spring Boot), defining controllers and services for internal systems integration.\nCode version control with Git, promoting good commit and branching practices.\nAdjustments and modeling of 3D assets in Blender, optimizing performance and visual consistency in applications.",
         icon: '/assets/LogoV.png',
-        animation: 'build'
+        animation: 'clapping'
 
     },
 ];
